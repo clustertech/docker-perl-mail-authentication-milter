@@ -7,7 +7,7 @@
     "connection"             : "inet:12345@127.0.0.1",
     "umask"                  : "0000",
     "runas"                  : "nobody",
-    "rungroup"               : "nogroup",
+    "rungroup"               : "nobody",
     "chroot"                 : "",
 
     "listen_backlog"         : 20,
