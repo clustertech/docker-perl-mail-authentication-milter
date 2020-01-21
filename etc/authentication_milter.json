@@ -4,7 +4,7 @@
     "logtoerr"  : 0,
     "error_log" : "/var/log/authentication_milter.err",
 
-    "connection"             : "inet:12345@localhost",
+    "connection"             : "inet:12345@127.0.0.1",
     "umask"                  : "0000",
     "runas"                  : "nobody",
     "rungroup"               : "nogroup",
