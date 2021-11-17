@@ -1,5 +1,5 @@
 #!/bin/bash
 
-rm -f /run/.*pid
+rm -f /run/*.pid
 rsyslogd
 exec authentication_milter

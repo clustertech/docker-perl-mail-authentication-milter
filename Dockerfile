@@ -1,4 +1,4 @@
-FROM centos:8
+FROM rockylinux/rockylinux:8
 ENV container docker
 RUN curl -Lo /tini https://github.com/krallin/tini/releases/download/v0.18.0/tini-amd64; \
 chmod 755 /tini
